@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+Initializing a repository either creates a new repository or restarts an already-created repository. You have to do it because otherwise you can’t make any commits to your project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is different from the working directory and the repository because it is “before” your repository in the sense that you encounter it before the repository. It allows you to make changes before finalizing your commit. It also allows you to store files you’ve made edits to before you commit them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Add the files you want to commit to the staging area, then commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Whenever you want to create a different version of the master project without changing it (for example: creating an easy mode for a game, making the project in a different language whilst keeping the master in a different language), you would want to branch. Branches would help because not only would they keep the project organized, they would also keep the master project intact.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help me visualize the branch structure in the sense that now I see which commit comes from which “parent”.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto Merging:
+	Pro: Saves time; Helps with concentrating with the task at hand
+	Con: Sometimes makes changes when you wouldn’t want it to

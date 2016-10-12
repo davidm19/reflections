@@ -1,0 +1,18 @@
+When would you want to use a remote repository rather than keeping all your work local?
+You’d want to use a remote repository if you’re working on a group project with friends or want other people on the internet to see your work.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+I want to always pull changes manually because with automatic pulling, there’s always the possibility that you could have unfinished work being pulled onto your local repository. Plus, if you do it yourself, you’ll know that you’ve made a commit and it’ll be sure in your mind.
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+Branches are a copy of all the commits in a repository but only happen on that repository. I’d use it to add changes to my program as a whole, say, in order to create a version of my program for a different platform. Clone duplicates the existing repository, and I’d use that to propose changes to someone’s program as long as I didn’t have access to Github. A fork is a copy of the repository (can be anyone’s repository, not just yours), and allows for changes to be made without affect the original project. These are Github-exclusive, so I’d use forks in order to use someone else’s code as a starting point for an idea or make changes to a friend’s project.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+Having a copy of the remote’s state helps by looking at the differences between it and the current state of the remote, meaning that bugs and mistakes are easier to pinpoint and solve.
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+Google Drive could potentially be a resource, but that would be more suited for editing actual text files rather than code. Without Git or Github, I would collaborate using USB sticks and the nano text editor on the command line. Git and Github would be easier, but they’d need to be learned, which takes time.
+
+When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+I’d make changes in a separate branch when you’re focusing specifically on your work. Making changes directly on the master would make the same changes in all the other branches, which would be useful if you’re trying to fix bugs. Making changes in a separate branch helps solve problems within that branch, especially if it’s a different version of the same program.
