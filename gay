@@ -1,0 +1,33 @@
+    try {
+      AudioInputStream audioInputStream = 
+              AudioSystem.getAudioInputStream(
+              this.getClass().getResource("Users/DavidM/Desktop/InheritanceBackground-2/01-Dream-House.mp3"));
+      sunbather = AudioSystem.getClip();
+      sunbather.open(audioInputStream);
+      sunbather.start();
+    }
+    catch (Exception ex) {
+      System.err.println(ex.getMessage());
+    }
+
+    try {
+      AudioInputStream audioInputStream = 
+              AudioSystem.getAudioInputStream(
+              this.getClass().getResource("Users/DavidM/Desktop/InheritanceBackground-2/11-Brother-Sport.mp3"));
+      mpp = AudioSystem.getClip();
+      mpp.open(audioInputStream);
+    }
+    catch (Exception ex) {
+      System.err.println(ex.getMessage());
+    }
+
+    try {
+      AudioInputStream audioInputStream = 
+                AudioSystem.getAudioInputStream(
+                this.getClass().getResource("Users/DavidM/Desktop/InheritanceBackground-2/10-No-Surprises.mp3"));
+      okcomputer = AudioSystem.getClip();
+      okcomputer.open(audioInputStream);
+    }
+    catch (Exception ex) {
+      System.err.println(ex.getMessage());
+    }
